@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints
+.env
+.DS_Store
+data_science/data/*.csv  # Große Daten nicht hochladen (Datenschutz/Größe)!
+!data_science/data/example.csv # Eine kleine Beispieldatei erlauben
+venv/
