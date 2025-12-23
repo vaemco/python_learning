@@ -1,0 +1,23 @@
+import random
+
+
+# Liste aufbauen und dann filtern (Loop vs. List Comprehension)
+temperatures = [random.randint(-5, 10) for _ in range(20)]
+print("Rohdaten:", temperatures)
+
+
+def is_valid(temp):
+    """Temperaturen unter 0 werden entfernt."""
+    return temp >= 0
+
+
+clean_with_loop = []
+for temp in temperatures:
+    if is_valid(temp):
+        clean_with_loop.append(temp)
+
+clean_with_comprehension = [temp for temp in temperatures if is_valid(temp)]
+
+print("Gefiltert (Loop):", clean_with_loop)
+print("Gefiltert (Comprehension):", clean_with_comprehension)
+print(f"Es sind noch {len(clean_with_comprehension)} Werte übrig.")

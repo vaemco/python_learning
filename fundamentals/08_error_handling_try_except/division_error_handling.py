@@ -1,0 +1,13 @@
+eingaben = ["10", "5", "hallo", "20", "0"]
+
+# Try/Except fängt zwei typische Fehler: falscher Typ und Division durch 0
+for raw_value in eingaben:
+    try:
+        number = int(raw_value)
+        ergebnis = 100 / number
+    except ValueError:
+        print(f"Fehler bei Wert (kein int): {raw_value}")
+    except ZeroDivisionError:
+        print("Division durch 0 ist nicht erlaubt.")
+    else:
+        print(f"Ergebnis: {ergebnis}")
