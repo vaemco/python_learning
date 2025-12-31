@@ -1,0 +1,9 @@
+Product,Region,Units_Sold,Price
+SuperWidget,North,100,40
+MegaGadget,South,50,45
+UltraTool,North,10,200
+BrokenItem,East,-5,10
+SuperWidget,North,200,40
+MegaGadget,North,60,45
+LazyChair,West,0,100
+HyperTable,North,10,350
