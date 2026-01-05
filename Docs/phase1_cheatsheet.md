@@ -113,5 +113,3 @@ class Model:
 my_model = Model("GPT-4")
 my_model.train()
 ```
-
-
