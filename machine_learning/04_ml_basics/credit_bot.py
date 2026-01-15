@@ -1,5 +1,5 @@
 import numpy as np  
-from sklearn import tree
+from sklearn.linear_model import tree
 
 x = np.array([[50000, 0], [60000, 0], [20000, 1], [25000, 0], [80000, 1]])
 y = np.array([1, 1, 0, 1, 0])
