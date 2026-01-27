@@ -1,8 +1,14 @@
+"""
+Purpose: Simulating and saving raw sales data.
+Status: Educational / Completed
+Topics: Pandas, Data Generation, CSV
+"""
+
 from pathlib import Path
 
 import pandas as pd
 
-# Wir simulieren "schmutzige" Rohdaten und speichern sie als CSV
+# We simulate "dirty" raw data and save it as CSV
 DATA_DIR = Path(__file__).resolve().parent / "data"
 DATA_DIR.mkdir(exist_ok=True)
 csv_path = DATA_DIR / "global_sales.csv"

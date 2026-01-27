@@ -1,13 +1,19 @@
+"""
+Purpose: Salary calculation with validation and error handling.
+Status: Educational / Completed
+Topics: Exceptions, Validation
+"""
+
 mitarbeiter_liste = [
     {"name": "Ali", "stunden": 40, "lohn": 20},  # Standard
-    {"name": "Bea", "stunden": 50, "lohn": 25},  # Überstunden!
-    {"name": "Chris", "stunden": 0, "lohn": 20},  # War im Urlaub (0 Stunden)
-    {"name": "Dave", "stunden": "40", "lohn": 20},  # Fehler: Text statt Zahl
-    {"name": "Eddy", "lohn": 15},  # Fehler: Stunden fehlen ganz
+    {"name": "Bea", "stunden": 50, "lohn": 25},  # Overtime!
+    {"name": "Chris", "stunden": 0, "lohn": 20},  # Was on vacation (0 hours)
+    {"name": "Dave", "stunden": "40", "lohn": 20},  # Error: Text instead of number
+    {"name": "Eddy", "lohn": 15},  # Error: Hours missing entirely
 ]
 
 
-# Try/Except, um fehlerhafte Gehaltsdaten zu überspringen
+# Try/Except to skip faulty salary data
 def berechne_gehalt(mitarbeiter):
     stunden = mitarbeiter["stunden"]
     lohn = mitarbeiter["lohn"]

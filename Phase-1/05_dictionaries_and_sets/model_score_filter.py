@@ -1,3 +1,9 @@
+"""
+Purpose: Filtering models based on accuracy scores.
+Status: Educational / Completed
+Topics: List of Dictionaries, Filtering
+"""
+
 model_results = [
     {"name": "LinearRegression", "accuracy": 0.82},
     {"name": "RandomForest", "accuracy": 0.91},
@@ -5,7 +11,7 @@ model_results = [
     {"name": "NeuralNet", "accuracy": 0.95}
 ]
 
-# Eine leere Liste für die Gewinner
+# An empty list for the winners
 top_models = []
 
 for key in model_results:

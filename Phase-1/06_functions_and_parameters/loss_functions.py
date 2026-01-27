@@ -1,3 +1,9 @@
+"""
+Purpose: Calculating L1 loss using a function.
+Status: Educational / Completed
+Topics: Functions, Arguments, Return Values
+"""
+
 def calculate_l1_loss(predict, actual):
     return abs(predict - actual)
 

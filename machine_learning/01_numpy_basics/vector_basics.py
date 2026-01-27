@@ -1,3 +1,9 @@
+"""
+Purpose: Basic element-wise vector operations.
+Status: Educational / Completed
+Topics: NumPy, Vectors, Broadcasting
+"""
+
 import numpy as np
 
 mengen = np.array( [2.5, 1.0, 0.5] )

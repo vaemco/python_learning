@@ -1,3 +1,9 @@
+"""
+Purpose: Visualizing a linear regression model with Matplotlib.
+Status: Educational / Completed
+Topics: Scikit-Learn, Matplotlib, Regression Line
+"""
+
 import numpy as np
 from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt 

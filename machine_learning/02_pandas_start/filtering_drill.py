@@ -1,7 +1,13 @@
+"""
+Purpose: Examples of advanced filtering using logical operators.
+Status: Educational / Completed
+Topics: Pandas, Filtering, Logical Operators (&, |, !)
+"""
+
 import pandas as pd
 from pathlib import Path
 
-file_path = Path(__file__).parent / "house_prices.csv"
+file_path = Path(__file__).parent / "data" / "house_prices.csv"
 df = pd.read_csv(file_path)
 
 family_mask = (df["Rooms"] == 2) & (df["Price"] < 500000)

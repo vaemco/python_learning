@@ -1,6 +1,12 @@
+"""
+Purpose: Handling division by zero and type errors using try/except.
+Status: Educational / Completed
+Topics: Exceptions, Error Handling
+"""
+
 eingaben = ["10", "5", "hallo", "20", "0"]
 
-# Try/Except fängt zwei typische Fehler: falscher Typ und Division durch 0
+# Try/Except catches two typical errors: wrong type and division by zero
 for raw_value in eingaben:
     try:
         number = int(raw_value)

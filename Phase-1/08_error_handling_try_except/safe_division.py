@@ -1,3 +1,9 @@
+"""
+Purpose: Safe division function preventing crashes.
+Status: Educational / Completed
+Topics: Exceptions, Functions
+"""
+
 def calculate_roi(profit,cost):
     try:
         roi = profit / cost

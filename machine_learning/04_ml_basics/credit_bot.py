@@ -1,3 +1,9 @@
+"""
+Purpose: Simple decision tree classifier for credit approval.
+Status: Educational / Completed
+Topics: Scikit-Learn, Decision Trees, Classification
+"""
+
 import numpy as np  
 from sklearn.linear_model import tree
 

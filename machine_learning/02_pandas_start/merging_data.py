@@ -1,3 +1,9 @@
+"""
+Purpose: Merging two DataFrames (sales and products) using a common key.
+Status: Educational / Completed
+Topics: Pandas, Merging, Joins (Left Join)
+"""
+
 import pandas as pd
 
 products = {

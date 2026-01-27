@@ -1,7 +1,13 @@
+"""
+Purpose: Loading CSV data and filtering by a specific column value.
+Status: Educational / Completed
+Topics: Pandas, Filtering, CSV
+"""
+
 import pandas as pd
 from pathlib import Path
 
-file_path = Path(__file__).parent / "house_prices.csv"
+file_path = Path(__file__).parent / "data" / "house_prices.csv"
 df = pd.read_csv(file_path)
 muc_mask = df["Location"] == "Munich"
 

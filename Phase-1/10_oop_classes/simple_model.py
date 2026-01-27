@@ -1,3 +1,9 @@
+"""
+Purpose: Basic class definition for a dataset wrapper.
+Status: Educational / Completed
+Topics: Classes, Methods, __init__
+"""
+
 class Dataset:
     def __init__(self, data):
         self.data = data

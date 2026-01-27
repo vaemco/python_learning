@@ -1,4 +1,10 @@
-# Dictionary lesen, schreiben und erweitern
+"""
+Purpose: Managing training configuration using a dictionary.
+Status: Educational / Completed
+Topics: Dictionaries, Updates, get() method
+"""
+
+# Read, write, and extend a dictionary
 training_config = {
     "learning_rate": 0.01,
     "epochs": 50,

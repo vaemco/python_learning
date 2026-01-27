@@ -1,3 +1,9 @@
+"""
+Purpose: Managing experiment statistics using a dictionary.
+Status: Educational / Completed
+Topics: Dictionaries, Key-Value Pairs
+"""
+
 experiment_stats = {
     "accuracy": 0.85,
     "loss": 0.4,

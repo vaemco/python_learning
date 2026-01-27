@@ -1,3 +1,9 @@
+"""
+Purpose: Filling missing values with column mean.
+Status: Educational / Completed
+Topics: Pandas, NaN, Imputation
+"""
+
 import pandas as pd
 import numpy as np
 

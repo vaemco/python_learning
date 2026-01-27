@@ -1,4 +1,10 @@
-# Liste bearbeiten: Indexing, Append, Loop
+"""
+Purpose: Basic list operations (indexing, appending, popping, looping).
+Status: Educational / Completed
+Topics: Lists
+"""
+
+# Manipulating lists: Indexing, Append, Loop
 todos = ["python üben", "zug fahren", "zocken"]
 
 print("Startliste:", todos)

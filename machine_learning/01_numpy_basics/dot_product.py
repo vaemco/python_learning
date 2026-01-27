@@ -1,3 +1,9 @@
+"""
+Purpose: Calculating the dot product of two vectors.
+Status: Educational / Completed
+Topics: NumPy, Dot Product, Model Comparison
+"""
+
 import numpy as np
 
 weights = np.array([0.6, 0.3, 0.1])

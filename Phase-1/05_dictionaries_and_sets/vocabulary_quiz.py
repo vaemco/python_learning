@@ -1,4 +1,10 @@
-# Mini-Vokabeltrainer: Dictionary + Loop + Input
+"""
+Purpose: Simple vocabulary quiz application.
+Status: Educational / Completed
+Topics: Dictionaries, Loops, Input
+"""
+
+# Mini Vocabulary Trainer: Dictionary + Loop + Input
 vokabel = {
     "Haus": "house",
     "Baum": "tree",

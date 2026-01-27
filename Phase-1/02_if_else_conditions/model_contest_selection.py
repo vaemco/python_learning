@@ -1,4 +1,10 @@
-# Liste von Dictionaries mit einer If/Else-Auswahl
+"""
+Purpose: Iterating through a list of dictionaries with condition checking.
+Status: Educational / Completed
+Topics: Loops, Conditionals, Dictionaries
+"""
+
+# List of dictionaries with an If/Else selection
 ergebnisse = [
     {"name": "GPT-4", "accuracy": 0.95},
     {"name": "Llama-2", "accuracy": 0.88},

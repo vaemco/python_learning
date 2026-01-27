@@ -1,6 +1,12 @@
+"""
+Purpose: A complete pipeline class for evaluating and reporting model performance.
+Status: Educational / Completed
+Topics: Classes, Exceptions, File I/O
+"""
+
 raw_results = [
     {"name": "Model_A", "accuracy": 0.85, "loss": 0.4},
-    {"name": "Model_B", "accuracy": "FEHLER", "loss": 0.9}, # Kaputte Daten!
+    {"name": "Model_B", "accuracy": "FEHLER", "loss": 0.9}, # Broken Data!
     {"name": "Model_C", "accuracy": 0.92, "loss": 0.1},
     {"name": "Model_D", "accuracy": 0.70, "loss": 0.8}
 ]

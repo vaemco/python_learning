@@ -1,13 +1,19 @@
+"""
+Purpose: Calculating ROI with robust error handling for bad data.
+Status: Educational / Completed
+Topics: Exceptions, Dictionaries, Arithmetic
+"""
+
 rohdaten = [
-    {"id": 1, "umsatz": 100, "kosten": 50},  # Gut
-    {"id": 2, "umsatz": 200, "kosten": "n/a"},  # Fehler: Text
-    {"id": 3, "umsatz": 300, "kosten": 0},  # Fehler: Division durch 0
-    {"id": 4, "umsatz": 150, "kosten": 10},  # Gut
-    {"id": 5},  # Fehler: Keys fehlen
+    {"id": 1, "umsatz": 100, "kosten": 50},  # Good
+    {"id": 2, "umsatz": 200, "kosten": "n/a"},  # Error: Text
+    {"id": 3, "umsatz": 300, "kosten": 0},  # Error: Division by 0
+    {"id": 4, "umsatz": 150, "kosten": 10},  # Good
+    {"id": 5},  # Error: Keys missing
 ]
 
 
-# Try/Except, um schmutzige Datensätze zu überspringen
+# Try/Except to skip dirty datasets
 def berechne_roi(datensatz):
     return datensatz["umsatz"] / datensatz["kosten"]
 

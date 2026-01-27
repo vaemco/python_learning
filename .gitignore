@@ -7,3 +7,4 @@ data_science/data/*.csv  # Große Daten nicht hochladen (Datenschutz/Größe)!
 !data_science/data/example.csv # Eine kleine Beispieldatei erlauben
 venv/
 notes.md
+Docs

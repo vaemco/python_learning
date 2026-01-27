@@ -1,3 +1,9 @@
+"""
+Purpose: First linear regression model predicting numeric values.
+Status: Educational / Completed
+Topics: Scikit-Learn, Linear Regression
+"""
+
 import numpy as np
 from sklearn.linear_model import LinearRegression
 

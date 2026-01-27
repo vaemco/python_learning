@@ -1,10 +1,16 @@
+"""
+Purpose: Cleaning data by handling missing values (NaN).
+Status: Educational / Completed
+Topics: Pandas, Data Cleaning, fillna, dropna
+"""
+
 import pandas as pd
 
-# Fehlende Werte auffüllen und unvollständige Zeilen löschen
+# Fill missing values and delete incomplete rows
 raw_data = {
     "customer_id": [1, 2, 3, 4, 5],
-    "age": [25, 30, None, 22, 35],  # Einer hat sein Alter nicht gesagt
-    "rating": [5, None, 4, 1, 5],  # Einer hat keine Bewertung abgegeben
+    "age": [25, 30, None, 22, 35],  # One person didn't say their age
+    "rating": [5, None, 4, 1, 5],  # One person didn't give a rating
     "country": ["DE", "US", "DE", "US", "DE"],
 }
 

@@ -1,8 +1,14 @@
+"""
+Purpose: Demonstrates saving and loading data to/from CSV.
+Status: Educational / Completed
+Topics: Pandas, CSV, I/O
+"""
+
 from pathlib import Path
 
 import pandas as pd
 
-# Kleiner CSV-Roundtrip: DataFrame -> CSV -> DataFrame
+# Small CSV Roundtrip: DataFrame -> CSV -> DataFrame
 DATA_DIR = Path(__file__).resolve().parent / "data"
 DATA_DIR.mkdir(exist_ok=True)
 csv_path = DATA_DIR / "clients.csv"

@@ -1,3 +1,9 @@
+"""
+Purpose: Generating a sales report for Europe.
+Status: Educational / Completed
+Topics: Pandas, Reporting, CSV
+"""
+
 from pathlib import Path
 
 import pandas as pd

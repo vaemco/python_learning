@@ -1,3 +1,9 @@
+"""
+Purpose: Creating a DataFrame manually and calculating a new column.
+Status: Educational / Completed
+Topics: Pandas, DataFrames, Column Operations
+"""
+
 import pandas as pd
 
 data = {

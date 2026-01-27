@@ -1,6 +1,12 @@
+"""
+Purpose: Introduction to Pandas DataFrames, filtering, and basic statistics.
+Status: Educational / Completed
+Topics: Pandas, DataFrames, Filtering
+"""
+
 import pandas as pd
 
-# Erste Schritte: DataFrame aufbauen, filtern und Statistiken holen
+# First steps: Build DataFrame, filter, and get statistics
 data = {
     "model_name": ["GPT-4", "Claude 3", "Llama 2", "Mistral"],
     "parameters": [1700, 1000, 70, 7],

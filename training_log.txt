@@ -1,3 +1,0 @@
-Epoch X: Loss 0.75
-Epoch X: Loss 0.82
-Epoch X: Loss 0.91

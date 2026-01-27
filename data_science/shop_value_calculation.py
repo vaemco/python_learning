@@ -1,6 +1,12 @@
+"""
+Purpose: Calculating new columns (net/gross prices) in a DataFrame.
+Status: Educational / Completed
+Topics: Pandas, column arithmetic
+"""
+
 import pandas as pd
 
-# Einfache Kennzahlen für Shop-Bestellungen
+# Simple metrics for shop orders
 data = {
     "product": ["Gaming Laptop", "Mechanical Keyboard", "USB-C Cable", "Monitor 27"],
     "price_net": [1200.00, 80.00, 15.00, 300.00],

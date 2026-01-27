@@ -1,13 +1,19 @@
+"""
+Purpose: Filtering a list using loops vs. list comprehensions.
+Status: Educational / Completed
+Topics: List Comprehensions, Loops, Filtering
+"""
+
 import random
 
 
-# Liste aufbauen und dann filtern (Loop vs. List Comprehension)
+# Build list and then filter (Loop vs. List Comprehension)
 temperatures = [random.randint(-5, 10) for _ in range(20)]
 print("Rohdaten:", temperatures)
 
 
 def is_valid(temp):
-    """Temperaturen unter 0 werden entfernt."""
+    """Temperatures below 0 are removed."""
     return temp >= 0
 
 

@@ -1,3 +1,9 @@
+"""
+Purpose: Filtering and sorting a list of prediction scores.
+Status: Educational / Completed
+Topics: Lists, List Comprehensions, Sorting
+"""
+
 '''predictions = [0.91, 0.45, 0.78, 0.62, 0.99, 0.31]
 
 for num in predictions:

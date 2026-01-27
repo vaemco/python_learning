@@ -1,3 +1,9 @@
+"""
+Purpose: Matrix-vector multiplication for batch prediction.
+Status: Educational / Completed
+Topics: NumPy, Matrices, Dot Product
+"""
+
 import numpy as np
 
 houses = np.array([

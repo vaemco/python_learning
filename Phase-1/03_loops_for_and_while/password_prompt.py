@@ -1,4 +1,10 @@
-# While-Loop: so lange fragen, bis das Passwort stimmt
+"""
+Purpose: Simulate a password prompt using a while loop.
+Status: Educational / Completed
+Topics: Loops, Input Handling
+"""
+
+# While-Loop: keep asking until the password is correct
 password = "secret"
 user_input = ""
 
