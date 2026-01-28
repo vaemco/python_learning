@@ -4,13 +4,13 @@ This repository documents my progression from basic Python concepts to data scie
 
 ## Repository Structure
 
-### 1. [Phase 1: Python Basics](Phase-1/README.md)
+### 1. [Python Basics](01_python_basics/README.md)
 Foundational programming concepts including variables, loops, functions, and object-oriented programming.
 
-### 2. [Data Science](data_science/README.md)
+### 2. [Data Science](02_data_science/README.md)
 Introduction to data manipulation and analysis using the **Pandas** library. Includes data cleaning, reporting, and CSV handling examples.
 
-### 3. [Machine Learning](machine_learning/README.md)
+### 3. [Machine Learning](03_machine_learning/README.md)
 Building on the basics to explore **NumPy**, deeper **Pandas** workflows, and initial **Machine Learning** models using `scikit-learn`.
 
 ## Disclaimer

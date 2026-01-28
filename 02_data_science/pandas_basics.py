@@ -6,7 +6,6 @@ Topics: Pandas, DataFrames, Filtering
 
 import pandas as pd
 
-# First steps: Build DataFrame, filter, and get statistics
 data = {
     "model_name": ["GPT-4", "Claude 3", "Llama 2", "Mistral"],
     "parameters": [1700, 1000, 70, 7],

@@ -6,11 +6,10 @@ Topics: Pandas, Data Cleaning, fillna, dropna
 
 import pandas as pd
 
-# Fill missing values and delete incomplete rows
 raw_data = {
     "customer_id": [1, 2, 3, 4, 5],
-    "age": [25, 30, None, 22, 35],  # One person didn't say their age
-    "rating": [5, None, 4, 1, 5],  # One person didn't give a rating
+    "age": [25, 30, None, 22, 35],  
+    "rating": [5, None, 4, 1, 5],  
     "country": ["DE", "US", "DE", "US", "DE"],
 }
 

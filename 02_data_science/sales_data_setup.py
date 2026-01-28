@@ -8,7 +8,6 @@ from pathlib import Path
 
 import pandas as pd
 
-# We simulate "dirty" raw data and save it as CSV
 DATA_DIR = Path(__file__).resolve().parent / "data"
 DATA_DIR.mkdir(exist_ok=True)
 csv_path = DATA_DIR / "global_sales.csv"
