@@ -5,10 +5,4 @@ __pycache__/
 .DS_Store
 venv/
 notes.md
-Docs
-
-# Ignore large data files in new structure
-02_data_science/data/*.csv
-!02_data_science/data/example.csv
-03_machine_learning/02_pandas_start/data/*.csv
-03_machine_learning/03_phase2_project/data/*.csv
+Docs/
