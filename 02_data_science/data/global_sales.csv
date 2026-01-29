@@ -1,0 +1,6 @@
+order_id,region,product,quantity,price_per_unit
+1001,Europe,Tablet,10,200
+1002,US,Phone,5,800
+1003,Asia,Laptop,2,1200
+1004,Europe,Headset,50,50
+1005,Europe,Phone,20,800
